@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+
+body { 
+  
+    margin: 0;
+    
+}
+.navbar {
+    background-color: #E7717D;
+}
+
+.title {
+    padding-top: 80px;
+}
+
+
+#name {
+    color: #7E685A;
+    font-family: "Poppins" , serif;
+    font-size: 38px;
+}
+
+.description {
+    color: #44220c;
+    font-weight: 350;
+    font-family: "Josefin Sans" , serif;
+    font-size: 18px;
+}
+
+
+.about-me {
+    margin-top: 60px ;
+}
+
+.about-me img {
+ width: 100%;
+ max-width: 400px;
+ height: auto;
+  border-radius: 40px;
+  border-color: #AFD275;
+}
+
+#about-title {
+    color: #7E685A;
+    font-family: "Poppins" , serif;
+    font-size: 25px ;
+    margin-top: 50px;
+}
+
+#about-description {
+    font-family: "Josefin Sans" , sans-serif;
+    font-weight: 350;
+    color: #44220c;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.project {
+    margin: 170px 90px 0 ;
+}
+
+.project h3 {
+    color: #7E685A;
+    font-size: 25px;
+}
+
+.project-card {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.card-title {
+    color: #4b3d34;
+    font-family: "Poppins" , serif;
+    font-size: 20px;
+}
+
+.card-text {
+    color: #807070;
+    font-size: 17px;
+    font-family: "Roboto" , serif;
+}
+
+#contact-title {
+  font-family: "Poppins" , serif;
+  color: #7E685A;
+}
+.contact-me img {
+  width: 20px;
+  
+}
+.icon-wrapper i {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #AFD275;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.icon-wrapper a {
+    text-decoration: none;
+}
+
+.icon-wrapper i:hover {
+  color: #E7717D; /* Muda a cor para azul */
+}
